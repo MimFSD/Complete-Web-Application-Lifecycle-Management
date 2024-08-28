@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav > ul {
     display: flex;
 }
@@ -25,4 +26,33 @@ nav li .dropdown {
 
 nav li:hover > .dropdown{
     display: block;
+=======
+nav > ul {
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 12px ;
+    padding: 4px;
+
+}
+nav li:hover{
+    background-color: fuchsia;
+}
+nav li a{
+    text-decoration: none;
+    color: brown;
+}
+
+/* Nested menu  */
+nav li .dropdown {
+    display: none;
+    position: absolute;
+    background-color: aquamarine;
+    padding-left: 8px;
+}
+
+nav li:hover > .dropdown{
+    display: block;
+>>>>>>> 7104f28e71131cca0a6659d7222534d6ea07df03
 }

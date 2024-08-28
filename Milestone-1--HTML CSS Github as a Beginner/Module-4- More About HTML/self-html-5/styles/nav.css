@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav > ul >li  {
     display: inline;
     margin-right: 12px;
@@ -13,4 +14,21 @@ footer{
 }
 h2{
     text-align: center;
+=======
+nav > ul >li  {
+    display: inline;
+    margin-right: 12px;
+
+}
+nav li > a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+>>>>>>> 7104f28e71131cca0a6659d7222534d6ea07df03
 }
