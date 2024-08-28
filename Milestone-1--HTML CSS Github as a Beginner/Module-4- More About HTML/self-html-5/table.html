@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-Tag</title>
+    <link rel="stylesheet" href="/styles/nav-table.css">
+    <style>
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- li*4>a -->
+        <ul>
+            <li><a href="audio_video.html">Video</a></li>
+            <li><a href="form.html">from </a></li>
+            <li><a href="table.html">Table</a>
+                <ul class="dropdown"> 
+                     <!-- Nested : Table-> From -> blog -->
+                    <li><a href="audio_video.html">Video</a></li>
+                    <li><a href="form.html">from </a>
+                    
+                        <ul class="dropdown">
+                            <li><a href="audio_video.html">Video</a></li>
+                            <li><a href="form.html">from </a></li>
+                            <li><a href="table.html">Table</a></li>
+                            <li><a href="blogs.html">Blogs</a>
+                                <ul class="dropdown">
+                                    <li><a href="audio_video.html">Video</a></li>
+                                    <li><a href="form.html">from </a></li>
+                                    <li><a href="table.html">Table</a></li>
+                                    <li><a href="blogs.html">Blogs</a></li>
+                        
+                                </ul>
+                            </li>
+                
+                        </ul>
+                    </li>
+                    <li><a href="table.html">Table</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+        
+                </ul>
+            
+            </li>
+            <li><a href="blogs.html">Blogs</a></li>
+
+        </ul>
+        </nav>
+    </header>
+    <body>
+        <table border="1" cellspacing="0">
+            <H2>Products of Company</H2>
+            <caption>Product Info</caption>
+           <thead>
+            <tr>
+                <th>Products</th>
+                <th>Flavors</th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr>
+                <td rowspan="3"> Milk</td>
+                <td>Almond</td>
+            </tr>
+            <tr>
+                <td>Mango</td>
+            </tr>
+            <tr>
+                <td>Chocolate</td>
+            </tr>
+    
+           </tbody>
+           <tfoot>
+            <tr>
+                <td colspan="2"> These are exclusive Flavors</td>
+            </tr>
+    
+           </tfoot>
+            
+    
+    
+        </table>
+    </body>
+</body>
+
+<footer>
+
+</footer>
+</html>
+
+
+<!-- git clone <url>
+    git remote set-url origin <puiblic_repo>
+    git push -->
