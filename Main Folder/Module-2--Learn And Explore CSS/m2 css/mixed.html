@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selector</title>
+    <style>
+        *{
+            margin: 0;
+             /* margin: 0; comment */
+        }
+        p{
+            color: rgb(170, 106, 10);
+            width: 50%;
+          
+        }
+        #push{
+            color: hsl(25, 70%, 26%);
+        }
+        .rose{
+            text-align: center;
+        }
+        #third{
+            text-align: center;
+        }
+        .rose, .yellow{
+            color: blueviolet;
+            background-color: aqua;
+        }
+        .bold{
+           font-weight: 800;
+        }
+        #Fifth{
+            font-size: 26px;
+        }
+        input[type="password"]{
+            color: red;
+        }
+        .alin{
+            color: rgb(123, 246, 0);
+        }
+        .blog{
+           color: rgb(159, 8, 8);
+           background-color: rebeccapurple;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Explore Mixed Selector</h2>
+    <p>My first <span class="alin">line CSS</span></p>
+    <p>My second lineCSS</p>
+    <p id="third">My third line CSS</p>
+    <p id="push">My fourth line CSS</p>
+    <p id="Fifth" >My fifth line CSS</p>
+    <p class="rose" id="third">My sixth line CSS</p>
+    <p class="rose bold">My seventh line CSS</p>
+    <p class="yellow">My eighth line CSS</p>
+    <p class="yellow">My ninth line CSS</p>
+    
+    <ol>
+        <li>Element Selector</li>
+        <li>Id Selector</li>
+        <li class="bold rose">Class Selector</li>
+        <li>universal Selector</li>
+    </ol>
+
+    <form action="">
+        <input type="text">
+        <input type="password">
+    </form> <br><br>
+    <div class="blog">
+        <h3>My blog</h3>
+        <p>I value well-designed products and today, I want to dive down into the design of travel blogs and feature the best design travel blogs out there that take storytelling to the next level and hopefully inspire you to create an awesome travel blog on your own.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempora, dignissimos odio ipsum ducimus harum! Aperiam nostrum, consequuntur maiores aut quos fugit animi adipisci repellat est expedita dolorum voluptas corporis.</p>
+
+
+
+
+
+
+    </div>
+  
+</body>
+</html>
