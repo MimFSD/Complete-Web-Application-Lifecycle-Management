@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Explore</title>
+</head>
+<body>
+    <h1 class="book">Tour to DOM</h1>
+    <ul class="book">
+        <h1>Important Courses</h1>
+        <li >SPL</li>
+        <li >OOP</li>
+        <li>DSA</li>
+        <li >ML</li>
+    </ul>
+    <div>
+        <h1 id="mcq">Learn more</h1>
+        <h2 id="pen" class="book">Practice Perfect</h2>
+        <p class="book">Reading book</p>
+        <i class="book">College Life</i>
+        <b class="book">University Tour</b>
+    </div>
+    <section>
+       <h3 id="board">Menu Card</h3>
+       <ul id="forp" class="time">
+        <li class="spell">Burger</li>
+        <li>Drinks</li>
+        <li class="spell">Pizza</li>
+        <li>Rice</li>
+        <li class="spell">Fish Fry</li>
+       </ul>
+    </section>
+    <script>
+        console.log("Dept. of CSE");
+        const cp= document.getElementsByTagName("li");
+        console.log(cp);
+        for (let iterator of cp) {
+            // console.log(iterator);
+            console.log(iterator.innerText);
+
+            
+        }
+
+    </script>
+
+    <script src="brain/self.js"> </script>
+
+</body>
+</html>

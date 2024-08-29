@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js DOM</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        li{
+            color: darkblue;
+        }
+        #view{
+            color: greenyellow;
+        }
+        .vvi{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Document Object Model</h1>
+        <p>The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document.</p>
+    </header>
+    <main>
+        <h1>The DOM is a W3C standard</h1>
+        <i>programming interface</i> <br>
+        <i>methods to access</i>
+
+        <ul>
+            <li>Core DOM - standard model for all document types</li>
+            <li>XML DOM - standard model for XML documents</li>
+            <li>HTML DOM - standard model for HTML documents</li>
+        </ul>
+        <section>
+            <section>
+                <ul>
+                    <h1>Room Parts</h1>
+                    <li>Table</li>
+                    <li>Chair</li>
+                    <li>Bed</li>
+                </ul>
+            </section>
+            <ul>
+                <h1 id="view">HTML DOM</h1>
+                <li class="vvi">HTML elements as objects</li>
+                <li class="vvi">properties  elements</li>
+                <li class="vvi">methods to access  elements</li>
+                <li>events  elements</li>
+            </ul>
+
+        </section>
+    </main>
+    <script src="Js/dom.js"></script>
+    <script>
+        console.log("methods to access all HTML element");
+        const lc  = document.getElementsByTagName('li');
+        console.log(lc);
+        for (const li of lc) {
+            console.log(li);
+            console.log(li.innerText);
+        }
+        const mango = document.getElementsByTagName('i');
+        console.log(mango);
+        for (const cow of mango) {
+            console.log(cow.innerText);
+            
+        }
+        const cat= document.getElementsByClassName('vvi')
+        console.log(cat);
+        for (const leg of cat) {
+            console.log(leg.innerText);
+            
+        }
+    </script>
+</body>
+</html>
