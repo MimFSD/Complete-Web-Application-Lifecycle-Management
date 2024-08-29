@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<script>
+    tailwind.config = {
+        content: ["./src/**/*.{html,js}"],
+    theme: {
+      extend: {
+        fontFamily: {
+         'poppins': ["Poppins", "sans-serif"],
+        },
+      },
+    },
+    plugins: [],
+    }
+  </script>
+</head>
+<body>
+    <p class="font-poppins">Utilities for controlling the font family of an element.</p>
+    <p class="font-custom">Utilities for controlling the font family of an element.</p>
+    <p class="font-mono">Utilities for controlling the font family of an element.</p>
+    <P class="font-sans md:font-serif">use variant modifiers to target media queries</P>
+
+
+</body>
+</html>
