@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    background-color: #84cc16;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 20px;
+}
+
+
+li a {
+    margin: 0px 5px;
+    padding: 8px 20px;
+}
+
+.for-mobile li {
+    margin: 15px 0px;
+}
